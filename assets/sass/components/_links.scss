@@ -1,0 +1,14 @@
+.menu__link{
+    font-family: $pt_mono;
+    font-weight: $regular;
+    text-decoration: none;
+    color: $quick_silver;
+    &:hover{
+        color: $black;
+    }
+}
+
+.box-button--default{
+    text-decoration: none;
+    color: inherit;
+}

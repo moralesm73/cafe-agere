@@ -1,0 +1,30 @@
+.button{
+    font-family: $pt_mono;
+    font-weight: $regular;
+    font-size: $medium;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button--primary{
+    background-color: $white;
+    color: $quick_silver;
+    border: 1px solid $quick_silver;
+    padding: 17px 19px;
+    &:hover{
+        color: $black;
+        border: 1px solid $black;
+    }
+}
+
+.button--secondary{
+    background-color: $shiny_shamrock;
+    color: $white;
+    border: 1px solid $shiny_shamrock;
+    padding: 17px 19px;
+    &:hover{
+        background-color: $turquoise_green;
+        color: $outer_space;
+        border: 1px solid $turquoise_green;
+    }
+}

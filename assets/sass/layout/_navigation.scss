@@ -1,0 +1,32 @@
+.navigation {
+    position: relative;
+    float: left;
+}
+
+.navigation__brand{
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+.navigation__logo {
+    width: 40px;
+}
+
+.menu {
+    display: inline-block;
+    list-style: none;
+}
+.menu .menu__item{
+    display: block;
+    float: left;
+    margin-right: 10px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.menu .menu__link {
+    padding: 20px 10px;
+    position: relative;
+    display: block;
+    font-size: $medium;
+}
