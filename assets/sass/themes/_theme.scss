@@ -1,0 +1,15 @@
+html, body {
+    min-height: 635px;
+}
+
+@media (max-height:635px){
+    html, body{
+        overflow: scroll;
+    }
+}
+
+@media (max-width:749px){
+    html, body{
+        overflow: scroll;
+    }
+}

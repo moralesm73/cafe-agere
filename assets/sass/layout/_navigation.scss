@@ -30,3 +30,17 @@
     display: block;
     font-size: $medium;
 }
+
+@media (max-width:749px) {
+    .navigation__logo {
+        width: 25px;
+    }
+    .navigation__brand{
+        margin-right: 20px;
+        
+    }
+    .menu .menu__link {
+        font-size: $small;
+        padding: 10px;
+    }
+}
