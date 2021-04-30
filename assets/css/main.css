@@ -2,10 +2,35 @@ html, body {
   padding: 0;
   margin: 0;
   background-color: #FFFFFF;
+  overflow: hidden;
 }
 
 ul, ol, li {
   padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   margin: 0;
 }
 
@@ -14,7 +39,7 @@ ul, ol, li {
   max-width: 1400px;
   width: 90%;
   margin: 0 auto;
-  padding: 28px 10px;
+  padding: 15px 10px;
   overflow: hidden;
 }
 
@@ -23,6 +48,165 @@ ul, ol, li {
   display: block;
   float: right;
   padding: 4px 0;
+}
+
+.main {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: calc(70vh - 92px);
+}
+
+.main-section {
+  background-image: url(../images/img-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.benefits {
+  position: absolute;
+  width: 570px;
+  background-color: #fff;
+  padding: 25px 15px;
+  bottom: 0;
+  right: 0;
+}
+
+.benefits__box {
+  float: left;
+  width: 170px;
+  position: relative;
+}
+.benefits__box h4 {
+  font-size: 40px;
+}
+.benefits__box p {
+  font-size: 16px;
+}
+
+.benefits__box--variety h4 {
+  padding: 0 35px;
+}
+.benefits__box--variety p {
+  padding: 0 35px;
+}
+
+.benefits__box--country h4 {
+  padding: 0 50px;
+}
+.benefits__box--country p {
+  padding: 0 50px;
+}
+
+.benefits__box--accesories h4 {
+  padding: 0 10px;
+}
+.benefits__box--accesories p {
+  padding: 0 10px;
+}
+
+.main-title {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+
+.main-title__container {
+  max-width: 215px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-title__text {
+  font-size: 70px;
+}
+
+.main-title__subtext {
+  font-size: 30px;
+}
+
+.mosaico {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 30vh;
+}
+
+.mosaico__text {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 4% 4% 0 4%;
+  width: 34%;
+  height: 100%;
+  float: left;
+}
+.mosaico__text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.mosaico__text p {
+  font-size: 16px;
+}
+
+.mosaico__imagenes {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 66%;
+  height: 100%;
+  float: right;
+}
+
+.mosaico__box {
+  position: absolute;
+}
+.mosaico__box--celeste {
+  background-color: #3C91E6;
+  left: 0;
+  top: 0;
+  height: 90%;
+  width: 100%;
+  z-index: 0;
+}
+.mosaico__box--mapa {
+  background-image: url(../images/img-4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 37%;
+  height: 83%;
+  top: 10%;
+  left: -3%;
+  z-index: 1;
+}
+.mosaico__box--cafe {
+  background-image: url(../images/img-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  right: 40%;
+  width: 100px;
+  height: 65%;
+  z-index: 3;
+}
+.mosaico__box--barista {
+  background-image: url(../images/img-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 45%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 2;
 }
 
 .navigation {
@@ -89,6 +273,28 @@ ul, ol, li {
   background-color: #9DCFAB;
   color: #454545;
   border: 1px solid #9DCFAB;
+}
+
+.main-title__button {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  bottom: 0;
+  left: 0;
+  background-color: #EACB31;
+}
+
+.box-button {
+  position: relative;
+  display: block;
+  width: 132px;
+  height: 132px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #E4572E;
+}
+.box-button img {
+  padding: 43px 44px;
 }
 
 .menu__link {

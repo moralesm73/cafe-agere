@@ -1,0 +1,78 @@
+.main{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: calc(70vh - 92px);
+}
+.main-section {
+    background-image: url(../images/img-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.benefits{
+    position: absolute;
+    width: 570px;
+    background-color: #fff;
+    padding: 25px 15px;
+    bottom: 0;
+    right: 0;
+}
+.benefits__box{
+    float: left;
+    width: 170px;
+    position: relative;
+    h4{
+        font-size: $xx-large;
+    }
+    p{
+        font-size: $medium;
+    }
+}
+.benefits__box--variety {
+    h4 {
+        padding: 0 35px;
+    }
+    p{
+        padding: 0 35px;
+    }
+}
+.benefits__box--country {
+    h4 {
+        padding: 0 50px;
+    }
+    p{
+        padding: 0 50px;
+    }
+}
+.benefits__box--accesories {
+    h4 {
+        padding: 0 10px;
+    }
+    p{
+        padding: 0 10px;
+    }
+}
+
+.main-title {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+.main-title__container {
+    max-width: 215px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-title__text{
+    font-size: $xxx-large;
+}
+.main-title__subtext {
+    font-size: $x-large;
+}

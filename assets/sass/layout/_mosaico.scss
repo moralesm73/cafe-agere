@@ -1,0 +1,77 @@
+.mosaico {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 30vh;
+}
+
+.mosaico__text {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 4% 4% 0 4%;
+    width: 34%;
+    height: 100%;
+    float: left;
+    h2 {
+        font-size: $x-large;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: $medium;
+    }
+}
+
+.mosaico__imagenes {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 66%;
+    height: 100%;
+    float: right;
+}
+
+.mosaico__box{
+    position: absolute;
+    &--celeste {
+        background-color: $blue_de_france;
+        left:0;
+        top: 0;
+        height: 90%;
+        width: 100%;
+        z-index: 0;
+    }
+    &--mapa {
+        background-image: url(../images/img-4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:37%;
+        height: 83%;
+        top: 10%;
+        left: -3%;
+        z-index: 1;
+    }
+    &--cafe {
+        background-image: url(../images/img-3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        right: 40%;
+        width: 100px;
+        height: 65%;
+        z-index: 3;
+    }
+    &--barista {
+        background-image: url(../images/img-2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 45%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+}
